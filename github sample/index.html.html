@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<title>Document</title>
+    	<title>CKEditor</title>
+        <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+	</head>
+	<header>
+		HTML5 course practice
+	</header>
+
+	<body>
+		<p>insert table <br>
+			<table border="1">
+				<tr>
+					<th>name</th><th>country</th><th>age</th>
+				</tr>
+				<tr>
+					<td>Ann</td><td>UK</td><td>12</td>
+				</tr>
+				<tr>
+					<td>Joe</td><td>Germany</td><td>10</td>
+				</tr>
+				<tr>
+					<td>Sue</td><td>France</td><td>9</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Zoe</td><td>Spain</td><td rowspan="2">9</td>
+				</tr>
+				<tr>
+					<td>France</td>
+				</tr>		
+				</table>
+		</p>
+		
+
+		<hr>
+
+			<p>insert image <br>
+				<img src="flowers.jpg" alt="flowers">	
+			</p>
+
+
+		<hr>
+
+			<p> insert movie<br>
+				<video width="500" controls>
+					<source src="ride.horse.mov" type="video/mov">
+				</video>
+			</p>
+		
+
+		<hr>
+
+			<p>unordered list <br>
+				<ul>
+					<li>spring</li>
+					<li>summer</li>
+					<li>autumn</li>
+					<li>winter</li>
+				</ul>
+			</p>
+		
+		<hr>
+
+			<p>ordered likst <br>
+				<ol>
+					<li>January</li>
+					<li>February</li>
+					<li>March</li>
+				</ol>
+			</p>
+		
+		<hr>
+
+			<p> ordered list starts from 5<br>
+				<ol start="5">
+					<li>green</li>
+					<li>blue</li>
+					<li>red</li>
+				</ol>
+			
+			</p>
+		
+		<hr>
+
+			<p>reversed ordered list starts from 9 <br>
+				<ol reversed start="9">
+					<li>phone</li>
+					<li>watch</li>
+					<li>wallet</li>
+					<li>keys</li>
+				</ol>
+			</p>
+		
+		<hr>
+
+			<p>ordered list starts from 4, middle starts from 50 <br>
+				<ol start="4">
+					<li>letter</li>
+					<li>ruler</li>
+					<li value="50">book</li>
+					<li>meds</li>
+				</ol>
+			</p>
+		
+		<hr>
+
+			<p>description list <br>
+				<dl>
+					<dt>breakfast</dt>
+					<dd>bread</dd>
+					<dd>juice</dd>
+					<dt>lunch</dt>
+					<dd>sandwich</dd>
+					<dd>water</dd>
+				</dl>
+			</p>
+
+		<hr>
+
+			<p>nesting list <br>
+				<ol>
+					<li>breakfast</li>
+					<li>lunch</li>
+					<li>dinner</li>
+					<ul>
+						<li>suop</li>
+						<li>rice</li>
+					</ul>
+				</ol>
+			</p>
+
+		<hr>
+
+			<p>font awesome<br>
+				<meta name="viewport" content="width=device-width,initial-scale=1">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<i class="fa fa-car" style="font-size:36px;color:red;"></i>
+			</p>
+			
+			<textarea name="editor1"></textarea>
+                <script>
+                        CKEDITOR.replace( 'editor1' );
+                </script>                 
+	</body>
+</html>
+
+
